@@ -1,0 +1,49 @@
+body {
+  background-color: hotpink;
+  height: 200vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer {
+  height: 80%;
+  width: 80%;
+  background-color: rgb(27, 220, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.inner {
+  height: 80%;
+  width: 80%;
+  background-color: burlywood;
+  position: relative;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: maroon;
+  position: fixed;
+}
+
+.top {
+  top: 0px;
+}
+
+.right {
+  right: 0px;
+}
+
+.left {
+  left: 0px;
+}
+
+.bottom {
+  bottom: 0px;
+}

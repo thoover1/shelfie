@@ -1,0 +1,83 @@
+h1 {
+  font-size: 70px;
+  color: white;
+}
+h2 {
+  font-size: 40px;
+  color: white;
+}
+
+body {
+  min-height: 200vh;
+}
+
+header {
+  height: 80px;
+}
+
+header > div {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 60px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  margin: 0 10px;
+}
+
+header a {
+  color: grey;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.content {
+  width: 100%;
+  height: 300px;
+}
+
+.content > div {
+  max-width: 1000px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row > div {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row > div img {
+  width: 150px;
+}
+
+.bg-shared {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.bg-1 {
+  background-image: url("./media/bg_image_1.jpg");
+}
+
+.bg-2 {
+  background-image: url("./media/bg_image_2.jpg");
+}
